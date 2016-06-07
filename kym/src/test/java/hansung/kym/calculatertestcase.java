@@ -14,5 +14,12 @@ public class calculatertestcase{
 		cal.add(2,3);
 		assertEquals(5,cal.getResult());
 	}
+	@Test
+	public void testsub(){
+		calculater cal = new calculater();
+		cal.sub(5,3);
+		assertEquals(2,cal.getResult());
+	}
+	
 
 }
